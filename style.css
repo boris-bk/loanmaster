@@ -1,0 +1,234 @@
+html {
+  box-sizing: birder-box;
+}
+*, *:after, *before {
+  box-sizing: inherit;
+}
+::-webkit-select {
+  text-indent: 10px;
+}
+body {
+  background: #000000;
+  background-image: url(portrait-dark-light-man-face.png);
+  background-size: auto 150%;
+  background-repeat: no-repeat;
+  background-position: top right;
+  margin: 0;
+  height: 100%;
+}
+ul li {
+  list-style: none;
+}
+input:focus { 
+  background-color: #5fcbcd; 
+}
+.header {
+  width: 100%;
+  min-height: 70px;
+  position:absolute;
+  top: 0;
+  margin: 0;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  background: rgba(205, 214, 219, 0.15);
+  font-family: 'Big Shoulders Display', cursive;
+}
+h1 {
+  font: normal 100% 'trebuchet ms', sans-serif;
+  text-transform: uppercase;
+  color: #20b45e;
+  font-size: 24px;
+  font-weight: 700; 
+}
+.logo {
+  width: 180px;
+  height: 100%;
+  position:absolute;
+  top: 10px;
+  left: 5%;
+  width: 20%;
+  
+}
+.logo span {
+  text-transform: uppercase;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 100; 
+}
+.menubar {
+  width: 50%;
+  float: right;
+}
+.menu {
+  margin-right: 30px;
+}
+ul.menu li {
+  float: left;
+  list-style: none;
+  margin-right: 2%;
+  font-size: 18px;
+}
+ul.menu li a {
+  font: normal 100% 'trebuchet ms', sans-serif;
+  display: block;
+  padding: 15px 10px;
+  color: #ffffff;
+  text-decoration: none;
+}
+ul.menu li a:hover {
+  color: rgba(216, 224, 228, 0.411);
+}
+.content {
+  margin: 1% 0;
+  padding-top: 10px;
+  width: 100%;
+  height: 100%;
+}
+.lender {
+  margin-top: 10%;
+  margin-left: 10%;
+  font-family: 'Cute Font', cursive;
+  font-size: 26px;
+}
+ul.lender li {
+  color: #ffffff;
+  line-height: 41.65px;
+  font-weight: 400;
+  text-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+  text-transform: uppercase;
+}
+ul.lender img {
+  position: relative;
+  top: 8px;
+}
+.simple {
+  font-size: 45px;
+  color: #ffffff;
+  max-width: 507px;
+  max-height: 70px;
+  font-family: 'Cute Font', cursive;
+  font-weight: 300;
+  line-height: 40px;
+  text-transform: uppercase;
+  letter-spacing: 0.82px;
+  margin: 4% 10%; 
+}
+.start p{
+  max-width: 507px;
+  margin: 4% 10%; 
+  color: #ffffff;
+  font-family: 'Cute Font', cursive;
+  border: 3px solid #20b45e;
+  font-size: 40px;
+  padding: 10px;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+.start p span {
+  color: #21bb62;
+}
+.footer {
+  width: 100%;
+  min-height: 145px;
+  background: rgba(205, 214, 219, 0.3);
+  box-shadow: -20px 0 40px rgba(0, 0, 0, 0.28);
+  position:absolute;
+  bottom: 0;
+  font-family: 'Big Shoulders Display', cursive;
+}
+.footer .lf {
+  margin: 0 5%;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 60%;
+}
+.footer .lf h3 {
+
+  height: 10px;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 40px;
+  text-transform: uppercase;
+  letter-spacing: 0.24px;
+  margin-left: 10px;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+.footer .lf input {
+  width: 181px;
+  height: 40px;
+  box-shadow: 3px 3px 29px rgba(0, 0, 0, 0.27);
+  border-radius: 10px;
+  background-color: #ffffff;
+  margin-top: 10px;
+  outline: none;
+  border: none;
+  margin-right: 40px;
+  padding-left: 10px;
+}
+.footer .lf select {
+  width: 181px;
+  height: 43px;
+  box-shadow: 3px 3px 29px rgba(0, 0, 0, 0.27);
+  border-radius: 10px;
+  background-color: #20b45e;
+  outline: none;
+  border: none;
+  margin-top: 10px;
+  background: url(http://www.free-icons-download.net/images/small-down-arrow-icon-15593.png)no-repeat right #20b45e;
+  background-position: right;
+  background-size: 20px;
+  appearance:none;
+  -webkit-appearance:none;
+}
+.rf {
+  width: 32%;
+  height: 100%;
+  background: rgba(205, 214, 219, 0.5);
+  float: right;
+  margin-top: 0;
+  padding-top: 0;
+  position:absolute;
+  right: 0;
+  bottom: 0;
+}
+.rf button {
+  width: 70%;
+  height: 45px;
+  box-shadow: 5px 5px 29px rgba(0, 0, 0, 0.57);
+  border-radius: 15px;
+  background-image: linear-gradient(-24deg, #08e9b1 0%, #37bb3d 100%);
+  outline: none;
+  border: none;
+  margin: 0 15%;
+  margin-top: 55px;
+  text-align: center;
+  font-size: 18px;
+  color: #ffffff;
+  letter-spacing: 0.72px;
+  text-transform: uppercase;
+  line-height: 40px;
+  font-weight: 400;
+}
+.rf button:hover {
+  box-shadow: 5px 5px 29px rgba(0, 0, 0, 0.7);
+  background-image: linear-gradient(-4deg, #08e9b1 0%, #37bb3d 100%);
+}
+.rf p {
+  width: 90%;
+  height: 9px;
+  color: #ffffff;
+  font-family: 'Mansalva', cursive;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 17px;
+  letter-spacing: 0.36px;
+  margin: 10px 5%;
+  text-align: center;
+}
+
+
+
+
+
